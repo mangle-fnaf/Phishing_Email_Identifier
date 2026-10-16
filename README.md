@@ -1,0 +1,1 @@
+A tool utilising AI to detect phishing emails based on patterns, etc.
