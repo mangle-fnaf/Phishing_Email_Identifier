@@ -1,5 +1,5 @@
-data/raw/phishing_email.csv
 data/raw/*.csv
 .ipynb_checkpoints/
 __pycache__/
+src/data/raw/
 src/data/raw/
