@@ -1,6 +1,7 @@
 import joblib
 from modules.ioc_extractor import extract_iocs
 from modules.threat_scoring import calculate_score
+from modules.report_generator import generate_report
 
 # load saved files
 model = joblib.load("model/phishing_model.pkl")
@@ -32,6 +33,21 @@ score = calculate_score(
     iocs["ips"],
     iocs["emails"]
 )
+
+report = generate_report(
+    label,
+    confidence,
+    score,
+    iocs
+)
+
+with open(
+    "analysis_report.txt",
+    "w"
+) as f:
+    f.write(report)
+
+print("\nReport saved.")
 
 print(f"\nPrediction: {label}")
 print(f"Confidence: {confidence:.2f}%")

@@ -1,0 +1,36 @@
+
+PHISHING ANALYSIS REPORT
+========================
+
+Generated:
+2026-10-26 14:20:28.638945
+
+Prediction:
+Phishing
+
+Confidence:
+99.56%
+
+Threat Score:
+50/100
+
+Indicators of Compromise
+------------------------
+
+URLs:
+[]
+
+Email Addresses:
+[]
+
+IP Addresses:
+[]
+
+Assessment
+-----------
+
+This email has been classified as:
+Phishing
+
+Overall Threat Score:
+50/100
