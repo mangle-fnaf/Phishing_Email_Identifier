@@ -181,6 +181,13 @@ Threat Score: 93/100
 - Created a threat scoring system to prioritise suspicious emails
 - Generated automated investigation reports for phishing analysis
 
+## Credits & Licence
+
+- Dataset: [Phishing Email Dataset](https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset) by Naser Abdullah Alam et al., licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- Paper: Al-Subaiey, A. et al. (2024). *Novel Interpretable and Robust Web-based AI Platform for Phishing Email Detection*. [arXiv:2405.11619](https://arxiv.org/abs/2405.11619).
+- The email text was cleaned (lowercased, links, numbers and punctuation removed) before training.
+- The trained model files in `src/model/` are derived from this dataset and are shared under the same CC BY-SA 4.0 licence.
+
 ## Author
 
 **Maliyka**
