@@ -11,3 +11,6 @@ __pycache__/
 .venv/
 env/
 venv/
+
+# Generated each time predict.py runs
+src/analysis_report.txt
