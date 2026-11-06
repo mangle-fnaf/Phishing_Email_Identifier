@@ -156,11 +156,11 @@ Threat Score: 84/100
 
 ### Phishing email detected
 
-![Phishing email detected](screenshots/phishing-detected.png)
+![Phishing email detected](screenshots/phishing_detected.png)
 
 ### Legitimate email
 
-![Legitimate email](screenshots/legitimate-email.png)
+![Legitimate email](screenshots/legitimate_email.png)
 
 ---
 
