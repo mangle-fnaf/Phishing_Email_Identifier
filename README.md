@@ -136,7 +136,7 @@ This means a legitimate email with links (such as a newsletter) is not treated a
 
 ```text
 Prediction: Phishing
-Confidence: 97.78%
+Confidence: 98.68%
 
 URLs Found:
 ['http://secure-paypa1-login.com/verify']
@@ -145,10 +145,22 @@ Email Addresses Found:
 ['support@paypa1-security.com']
 
 IP Addresses Found:
-['185.220.101.4']
+[]
 
-Threat Score: 93/100
+Threat Score: 84/100
 ```
+
+---
+
+## Screenshots
+
+### Phishing email detected
+
+![Phishing email detected](screenshots/phishing-detected.png)
+
+### Legitimate email
+
+![Legitimate email](screenshots/legitimate-email.png)
 
 ---
 
